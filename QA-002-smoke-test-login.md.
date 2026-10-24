@@ -1,0 +1,40 @@
+`
+## CP-01 Inicio de sesión exitoso con credenciales válidas
+Pasos:
+1. Abrir la tienda Sauce Demo.
+2. Ingresar standard_user en el usuario.
+3. Ingresar secret_sauce en la contraseña.
+4. Hacer clic en Login.
+
+Resultado esperado: El sistema permite el acceso al catálogo de productos.
+
+Resultado obtenido: Se ingresaron las credenciales indicadas y el sistema permitió el acceso al catálogo de productos sin inconvenientes.
+`
+
+`
+## CP-02 Login rechazado con usuario bloqueado
+
+Pasos:
+1. Abrir la tienda Sauce Demo.
+2. Ingresar locked_out_user en el usuario.
+3. Ingresar secret_sauce en la contraseña.
+4. Hacer clic en Login.
+
+Resultado esperado: El sistema impide el acceso al catálogo de productos y muestra un mensaje que informa que el usuario está bloqueado.
+
+Resultado obtenido: El sistema mostró el mensaje de error: Epic sadface: sorry, this user has been locked out. No permitió el acceso al catálogo de productos.
+`
+
+`
+## CP-03 Login rechazado con campos vacíos
+
+Pasos:
+1. Abrir la tienda Sauce Demo.
+2. Dejar vacío el campo de usuario.
+3. Dejar vacío el campo de contraseña.
+4. Hacer clic en Login.
+
+Resultado esperado: El sistema impide el inicio de sesión y muestra un mensaje indicando que el nombre de usuario es obligatorio.
+
+Resultado obtenido: En la pantalla se observa que los campos Username y Password están vacíos, ambos presentan indicadores de error y aparece el mensaje: Epic sadface: Username is required.
+`
