@@ -1,0 +1,68 @@
+#¿que es QA? 
+QA es calidad ---> calidad es que el prodcuto haga lo que prometio y ademas sea ## USABLE - ## CONFIABLE -  ## SEGURO. 
+
+QA significa (quality assurance). ## PREVIENEN defectos asegurando procesos 
+
+QC significa (quality control). detectan defectos en el producto ya hecho. 
+
+TESTING es la actividad concreta de ajecutar el software para buscar fallos. 
+
+
+                                               # UN DIA NORMAL DE UN QA ES ASI: 
+                                                                |
+                                                                |
+                                                        leer requisitos
+                                                                |
+                                                                |
+                                                          Diseñar Casos
+                                                                |
+                                                                |
+                                                        Ejecutar Pruebas 
+                                                                |
+                                                                |
+                                                          Reportar Bugs 
+                                                                |
+                                                                |
+                                                       Verificar Arreglos 
+                                                                |
+                                                                |
+                                                    Automatizar lo repetitivo 
+
+
+Un defecto hallado al escribir un requisito/requerimiento no cuesta casi nada, en cambio ese mismo defecto hallado en producción, cuesta Clientes y Dinero. 
+Por estas razones un QA entra desde el inicio del proyecto para PREVENIR, haciendo un (Shift + Left), esto significa que las pruebas se muevan a la izquierda,al inicio del proceso. 
+
+Cada necesidad se escribe como una historia de usuario. 
+
+Como -->   USUARIO  -->  quiero -->  ACCION -->  Para --> BENEFICIO 
+
+## 7 PRINCIPIOS DEL TESTING 
+1) Las pruebas muestran presencia de los defectos no su ausencia.
+2) Probar todo es imposible, por eso es mejor priorizar Siempre por Riesgo. 
+3) Siempre realiza pruebas tempranas (shift + left) 
+4) Los defectos se agrupan por modulos. 
+5) PARADOJA DEL INSECTICIDA (repetir siempre lo mismo deja de hallar bugs).
+6) Depende del contexto 
+7) un software sin bugs que no sirve al usuario, es un fracaso.
+
+
+# PROGRAMAS A INSTALAR 
+Esto es infraestructura, sin las siguientes herramientas no hay como trabajar. 
+
+1) GOOGLE Chrome y Devtools => Permiten ver como se comporta la web en tiempo real mediante, element, red, errores.
+2) POSTMAN => Pruebas API´s ( es decir los servicios que conectan aplicaciones) 
+3) VS CODE => Es donde se escriben los casos de prueba y scripts, que es un script ?, un script es un cojunto de instrucciones escritas en un lenguaje de programacion 
+              que se ejecuta de manera secuancial, para automatizar tareas en un sistema o en una computadora. 
+4) GIT-GITHUB => Guarda tu trabajo (repositorio) para crear un portafolio. primordial para que los empleadores visualicen tu trabajo. 
+5) NODE JS y SQL LITE ==> te permiten entender bases de datos y Backends 
+
+
+## EJERCICIO 1 
+
+Explica con tus palabras la diferencia entre un QA UN QC Y TESTING 
+Usa almenos un concepto de la teoria, (ERROR - DEFECTO- FALLO- O Principio del testing) 
+
+## DESARROLLO 
+QA preveniene los incidentes antes de iniciar con los requeriientos, el qa siempre esta de principio a fin. 
+QC, encuentra errores cuando ya construido el software, 
+Testing. siempre se realiza y no se omiten detalles, haciendo uso de la paradoja de pesticida, toca hacer pruebas distintas, y escenarios para hallar bugs. 
